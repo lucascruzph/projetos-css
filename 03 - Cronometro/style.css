@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+html{
+    background-color:azure;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+form{
+    margin: 10px;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+form p{
+    font-size: 14px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bgblu{
+    background-color: darkcyan;
+    font-size: 14px;
+    padding: 2px 3px;
+}
+.visual-cronometro{
+    display: flex;
+    width: 250px;
+    padding: 15px 20px;
+    font-size: 28px;
+    font-weight: 100;
+    background-color: darkslategrey;
+    color: white;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+    padding: 5px 20px;
+}
+button img{
+    height: 12px;
+}
+.botao{
+    padding: 0 30px;
+    background-color: darkcyan;
+}

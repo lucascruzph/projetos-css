@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Guarda arquivos referêntes a configuração e visualização da página. O que está na tag HEAD não aparece no corpo da página -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Apenas um cronometro</title><!-- O nome que aparece escrito na aba do navegador-->
+
+    <!-- Chama o arquivo css -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main><!-- Uma caixa que guarda todo o conteúdo principal da página (main=principal) -->
+        <section class="d-flex"><!-- Section é uma caixa que guarda um sessão da minha página (section=sessão) -->
+            <form name="form_main"> <!-- A tag form é uma caixa de formulário (form=formulário) -->
+                <div class="bgblu"> <!-- A tag div é uma caixa que guarda alguma coisa de menor relevância, ou um pequeno trecho do código. Nesse caso a Div está guardando um paragrafo(p) -->
+                    <p> cronometro v1</p>
+                </div>
+                <div class="visual-cronometro">
+                    <span id="hour">0</span><!-- Assim como a Div, o Span guarda um pequeno pedaço de um código, com nos relevância que a Div, mas comumente ligado a uma linha. Nesse caso, uma linha de paragrafo(p) -->
+                    <p>h</p>
+                    <span id="minute">0</span>
+                    <p>min</p>
+                    <span id="second">0</span>
+                    <p>seg</p>
+                    <span id="millisecond">0</span>
+                    <p>ms</p>
+                </div>
+                <div class="botao">
+                    <button type="button" name="start"><img src="img/botao-play.png" alt=""></button>
+                    <button type="button" name="pause"><img src="img/pausa.png"></button>
+                    <button type="button" name="reset"><img src="img/stop.png"></button>
+                </div>
+                </form>
+        </section>
+        
+    </main>
+
+    <!-- Chama o arquivo javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
